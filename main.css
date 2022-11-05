@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+	
+}
+
+main {
+	background-color: white;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	/*Тень*/
+    box-shadow: 0 0 10px 1px rgba(0,0,0,3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_link {
+	display: block;
+	width: calc(50% - 12px);
+	height: calc(90vh / 16*9);
+	max-width: 490px;
+	max-height: 500px;
+	margin: 6px;
+}
+
+.item {
+	height: 100%;
+	width: 100%;
+	/*Положение фона относительно блока: по центру*/
+	background-position: center;
+	/*Размер фона: равномерное масштабирование до заполнения*/
+	background-size: cover;
+}
+
+header {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background: greenyellow;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,3);
+}
+
+h1 {
+	margin: auto;
+}
