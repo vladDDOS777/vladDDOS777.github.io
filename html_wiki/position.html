@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Wiki</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/html.png">
+	<header>
+		<a href="display.html"><img class="arrow" src="https://cdn.icon-icons.com/icons2/2189/PNG/512/arrow_left_icon_133718.png" alt="Стрелка влево"></a>
+		<h1>position</h1>
+		<a href="form.html"><img class="arrow" src="https://cdn.icon-icons.com/icons2/2189/PNG/512/arrow_right_icon_133719.png" alt="Стрелка вправо"></a>
+	</header>
+
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_Aeutnk9tDLq9CYdoU5ufjk-eMTRdo9UhL9CHDJDZkIBFXZIpwDf8Tm5JnIXjmdd4onn-ASicSEV_Br5yrUyW_PqSgVA287A-xT2JCWRrQqinS7XNJ8vfe1GNPRzEHljAwJDZd3xSDaenWm47qTwKMYM86QKCWKpWoYfKzAu12DEROgGue5gucSdhNtPDnv60eLvCkYHHnjTnrj9DUCeuCfIcfeUjXi7nJC34ERazrM7sBZ8xaknr-bidt2F5Up-y2VTrNNU5boMEibd7rRcErHgvS53XESItQYzD8DKv-vWf0nYwtpH7fZ1-z7wLldAVtJIrqD1cdqpUddKGitwS8pfdepjwiKvSdyLGF9LtefvqKuAtTueoPk3Dj272ZfKCO6Tr2bObD83XusHQq1y7c6hn8Q4JblMifYVHKYlZ4rY5BWUc4ySwNlqwITpVszmasITFb26DLZU1STLp5YO6EfQWt59i-8com9zi8qQFerOrwJy6V77VnV5CKpL8poEpAO61nzctEC6wxu-ILkZKDNsLqbNDJH7879EnAyOabFY8MdNpdZaX3nSQFPZBWOpXC4EoCYtTYYqKuBMOeH3Ih3mKqW7k-I4ekyMttWjMTYoRqZWk6om88gjB4s6SG21Cuz2QsJa6hwep8sqp9PmCLbbmG4Yb1Z2j2iQbiRHiPA4Nbt3L9P274qZb7pmP1vFMKKVxIu4H0DQM1bY4sLSY0D6flwdEF2IR-ImMOOUf1-GBLDIaxiSXR5zjIis5Ay10FYtQCNf7tlaZ4LtvDtUba-m_Kwd_4TG1c-lS_g_K2IlvRhUSwzFG3a5hlUI9kfh2r-Fa1zSusY3SlZ26xAlStZVjp7W7cPJ_dahA4zHrGFpN1mS7_LDnZKfE4aad4tGYNcMdFQjwiyb-YfTn-lORCQDDhMOHmzInFHjDYzzTxS5LYmJSI5siBo6p9dNYB_JVZR2itEOPP_98OKP2s3WzmPi2Ktj4jLTfr_fF2DxdaMR8zp2aOZ56EPQDe-1Qp6qm8Uwo7CFSBGBbJziKJqH9gQB42EEhqNgG-xNq9jYUbn85yLVpjGVmJjlb7Ox5i0c9iDoatpoLjFCszC1cbLAFczOq-3-1tpyQFUOwqop966wOQluhfmKtKbIjqELz-eRZXgubi1n2JL5ZLPR2ADN_9IcGIMCGfzhTZe7q-srrFVz91NsxpAUu3wjb9rnrek4SvPGiAoTAZgM29Xa9BY8mylZDjXqMSKx1nj7ip1E-fTo-B3DOGR2OhMQRNFRJyNrUOSbGEv4B8MoCEaJXwI_SUpdSec8584u30BoQLWPpuTMdQV19sI5m89fu3a3XfhVDc3dtRBWDNvVFD1eALrqQAdSxlvNBNu94h4B7MfcTSAtwrt7mc0UGiDHfrM330pUeuG0-KRFcqK7kcRzsNDfIW3ba1FFVz5C5zjMP3lLeNoGLAeXSUX6UwJKWFrOHAaEBOdN9BNiuQED9HlQu8nnyraQ1SAQ3T5CLLQVvHSGb6b3mCAyefILRe2-iQuVDCqhuyk9DnT341wKPJ_ebJB8p_xbYHGtOtnykarrGdu3bZ-EW8rxR787wkp8-2KtdRSN-JuilvKcliT1HvAk6y6phw" charset="UTF-8"></script>
+</head>
+<body>
+<main>
+		<h2>position: static (по умолчанию)</h2>
+		<p>Статическое позиционирование, используется как значение по умолчанию.</p>
+		<div style="background: #fae; width: 500px;">
+			Без позиционирования ("position:static").
+			<h3 style="background: #aef; margin: 0;">Заголовок</h3>
+			<div>А тут всякий разный текст... <br>... В две строки</div>
+		</div>
+
+		<h2>position: relative</h2>
+		<p>Относительное позиционирование сдвигает элемент относительно его обычного положения.Для того,чтобы сдвинуть элемент,необхлдимо задать свойство <b>position: relative</b> и воспользоваться коодинатами <b>left/right/top/bottom</b>.</p>
+		<div style="background: #fae; width: 500px;">
+				Заголовок сдвинут на 10 px вниз и на 5 px вправо.
+
+			<h3 style="background: #aef; margin: 0; position: relative; top: 10px; left: 5px">Заголовок</h3>
+			<div>А тут всякий разный текст... <br>... В две строки</div>
+
+			<h2>position: absolute</h2>
+			<ol>
+				<li>Элемент исчезает с того места, где он должен быть и позиционируется заново. Остальные элементы, располагаются так, как-будто этого элемента никогда и не было.</li>
+				<li>Координаты left/right/top/bottom отсчитываются от ближайшего позиционированного родителя (родителя с позионированием отличным от static). Если такого родителя нет - то относительно документа.</li>
+				<li>Ширина элемента устанавливается по содержимому.</li>
+				<li>Элемент получает <b>display: block</b></li>
+			</ol>
+			<div style="background: #fae; width: 500px; position:relative;">
+		        Заголовок позиционируется относительно окна.
+
+			<h3 style="background: #aef; margin: 0; position: fixed; top: 0; right: 0;">Заголовок c position: fixed</h3>
+			<div>А тут всякий разный текст... <br>... В две строки</div>
+		</div>
+
+		    <h2>position: fixed</h2>
+		    <p>Позиционирует обьекты точно так же, как и absolute, но относительно окна.</p>
+		
+</body>
+</html>

@@ -1,0 +1,69 @@
+header {
+	/*Задний фон*/
+	background: blueviolet;
+	/*ВЫСОТА*/
+	height: 70px;
+	/*ШИРИНА*/
+	width: 80%;
+	/*Внешние отступы - выводит этемент на середину*/
+	margin: auto;
+	/*Способ отображения элементов внутри этого тега*/
+	display: flex;
+	/*Способ распределения элементов внутри*/
+	justify-content: space-between;
+	/*Выравнивание внутренних элементов по вертикали*/
+	align-items: center;
+}
+
+.arrow {
+	width: 64px;
+}
+
+body {
+	margin: 0;
+	background: powderblue;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	background: whitesmoke;
+	/*Минимальная высота: 80% относительно высоты экрана - 70px*/
+	min-height: calc(100vh - 70px);
+	/*Внутренние отступы*/
+	padding: 5px 15px ;
+	/*Алгоритм расчёта размеров*/
+	box-sizing: border-box;
+}
+
+
+/*Стили для таблицы*/
+table {
+	width: 100%;
+	/*Граница (обводка)*/
+	border: 2px black solid;
+	/*Отступы между ячейками таблицы*/
+	border-collapse: collapse;
+}
+
+td {
+	border: 1 px solid black;
+	background: lightgreen;
+	 /*Выравнивание текста: по центру*/
+	 text-align: center;
+	 padding: 10px;
+}
+
+th {
+	border: 1px solid black;
+	background: whitesmoke;
+	/*Цвет текста*/
+	color: black;
+}
+
+/*Свойства для каждого превого td*/
+td:nth-child(1) {
+	/*Толщина шрифта: жирный*/
+	font-weight: bold;
+}
+
