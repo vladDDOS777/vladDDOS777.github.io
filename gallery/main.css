@@ -27,10 +27,15 @@ main {
 	display: block;
 	width: calc(50% - 12px);
 	height: calc(90vh / 16*9);
-	max-width: 490px;
-	max-height: 500px;
+	/*max-width: 490px;
+	max-height: 500px;*/
 	margin: 6px;
+
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
 }
+
+
 
 .item {
 	height: 100%;
@@ -52,4 +57,18 @@ header {
 
 h1 {
 	margin: auto;
+}
+
+.link_wrapper {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.author {
+	color: #111;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: 0.3s;
 }
